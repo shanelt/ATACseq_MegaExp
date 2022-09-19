@@ -15,7 +15,7 @@ type bigWig
 pairSearchRange 10000
 bamColorMode grey
 maxWindowToDraw 200000
-bigDataUrl https://www.dropbox.com/s/bbgzylhrlwv6i4m/D7_IEL_Rep1.bw?dl=1
+bigDataUrl https://dl.dropboxusercontent.com/s/bbgzylhrlwv6i4m/D7_IEL_Rep1.bw?dl=0
 
 track D7_IEL_rep2
 shortLabel D7 IEL rep2
