@@ -15,7 +15,7 @@ type bigWig
 pairSearchRange 10000
 bamColorMode grey
 maxWindowToDraw 200000
-bigDataUrl https://dl.dropboxusercontent.com/s/bbgzylhrlwv6i4m/D7_IEL_Rep1.bw?dl=0
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_IEL_Rep1.bw
 
 track D7_IEL_rep2
 shortLabel D7 IEL rep2
@@ -25,7 +25,7 @@ type bigWig
 pairSearchRange 10000
 bamColorMode grey
 maxWindowToDraw 200000
-bigDataUrl https://www.dropbox.com/s/cf1ofju8ihbrl0k/D7_IEL_Rep2.bw?dl=0
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_IEL_Rep2.bw
 
 track D7_Kidney_rep1
 shortLabel D7 Kidney rep1
@@ -35,7 +35,7 @@ type bigWig
 pairSearchRange 10000
 bamColorMode grey
 maxWindowToDraw 200000
-bigDataUrl https://www.dropbox.com/s/9mwd3xs8dg3u8tx/D7_Kidney_Rep1.bw?dl=0
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_Kidney_Rep1.bw
 
 track D7_Kidney_rep2
 shortLabel D7 Kidney rep2
@@ -45,7 +45,7 @@ type bigWig
 pairSearchRange 10000
 bamColorMode grey
 maxWindowToDraw 200000
-bigDataUrl https://www.dropbox.com/s/pmhhyb9enyh4ux7/D7_Kidney_Rep2.bw?dl=0
+bigDataUrl
 
 track D7_Spleen_rep1
 shortLabel D7 Spleen rep1
@@ -55,7 +55,7 @@ type bigWig
 pairSearchRange 10000
 bamColorMode grey
 maxWindowToDraw 200000
-bigDataUrl https://www.dropbox.com/s/k30t3tqs8fsjmru/D7_Spleen_Rep1.bw?dl=0
+bigDataUrl 
 
 track D7_Spleen_rep2
 shortLabel D7 Spleen rep2
@@ -65,7 +65,7 @@ type bigWig
 pairSearchRange 10000
 bamColorMode grey
 maxWindowToDraw 200000
-bigDataUrl https://www.dropbox.com/s/c0z71lfnpi42c3a/D7_Spleen_Rep2.bw?dl=0
+bigDataUrl 
 
 
 
