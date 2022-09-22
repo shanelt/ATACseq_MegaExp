@@ -10,11 +10,7 @@ genome mm39
 track D7_IEL_rep1
 shortLabel D7 IEL rep1
 longLabel D7 IEL rep1 LCMV-Arm Milner 2017 Nature
-visibility squish
 type bigWig
-pairSearchRange 10000
-bamColorMode grey
-maxWindowToDraw 200000
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_IEL_Rep1.bw
 
 track D7_IEL_rep2
