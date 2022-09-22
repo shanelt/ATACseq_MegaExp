@@ -44,7 +44,7 @@ type bigWig
 pairSearchRange 10000
 bamColorMode grey
 maxWindowToDraw 200000
-bigDataUrl
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_Kidney_Rep2.bw 
 
 track D7_Spleen_rep1
 shortLabel D7 Spleen rep1
@@ -54,7 +54,7 @@ type bigWig
 pairSearchRange 10000
 bamColorMode grey
 maxWindowToDraw 200000
-bigDataUrl 
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_Spleen_Rep1.bw
 
 track D7_Spleen_rep2
 shortLabel D7 Spleen rep2
@@ -64,7 +64,7 @@ type bigWig
 pairSearchRange 10000
 bamColorMode grey
 maxWindowToDraw 200000
-bigDataUrl 
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_Spleen_Rep2.bw
 
 
 
