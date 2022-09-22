@@ -4,8 +4,7 @@ longLabel Tsuda Mega Exp ATACseq
 useOneFile on
 email stsuda@ufl.edu
 
-genome GRCm39
-
+genome mm39
 
 track D7_IEL_rep1
 shortLabel D7 IEL rep1
