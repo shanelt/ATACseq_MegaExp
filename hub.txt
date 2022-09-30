@@ -11,6 +11,7 @@ track D7_IEL_rep1
 shortLabel D7 IEL rep1
 longLabel D7 IEL rep1 LCMV-Arm Milner 2017 Nature
 type bigWig
+visibility pack
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_IEL_Rep1.bw
 
 track D7_IEL_rep2
