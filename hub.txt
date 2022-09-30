@@ -11,14 +11,14 @@ track D7_IEL_rep1
 shortLabel D7 IEL rep1
 longLabel D7 IEL rep1 LCMV-Arm Milner 2017 Nature
 type bigWig
-maxHeightPixels 100:50:8
+maxHeightPixels 75
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_IEL_Rep1.bw
 
 track D7_IEL_rep2
 shortLabel D7 IEL rep2
 longLabel D7 IEL rep2 LCMV-Arm Milner 2017 Nature
 type bigWig
-maxHeightPixels 100:25:8
+maxHeightPixels 75
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_IEL_Rep2.bw
 
 track D7_Kidney_rep1
