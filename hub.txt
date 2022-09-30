@@ -11,39 +11,47 @@ track D7_IEL_rep1
 shortLabel D7 IEL rep1
 longLabel D7 IEL rep1 LCMV-Arm Milner 2017 Nature
 type bigWig
-maxHeightPixels 75
+maxHeightPixels 60
+autoScale on
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_IEL_Rep1.bw
 
 track D7_IEL_rep2
 shortLabel D7 IEL rep2
 longLabel D7 IEL rep2 LCMV-Arm Milner 2017 Nature
 type bigWig
-maxHeightPixels 75
+maxHeightPixels 60
+autoScale on
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_IEL_Rep2.bw
 
 track D7_Kidney_rep1
 shortLabel D7 Kidney rep1
 longLabel D7 Kidney rep1 LCMV-Arm Milner 2017 Nature
 type bigWig
+maxHeightPixels 60
+autoScale on
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_Kidney_Rep1.bw
 
 track D7_Kidney_rep2
 shortLabel D7 Kidney rep2
 longLabel D7 Kidney rep2 LCMV-Arm Milner 2017 Nature
 type bigWig
+maxHeightPixels 60
+autoScale on
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_Kidney_Rep2.bw
-
 
 track D7_Spleen_rep1
 shortLabel D7 Spleen rep1
 longLabel D7 Spleen rep1 LCMV-Arm Milner 2017 Nature
 type bigWig
+maxHeightPixels 60
+autoScale on
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_Spleen_Rep1.bw
-
 
 track D7_Spleen_rep2
 shortLabel D7 Spleen rep2
 longLabel D7 Spleen rep2 LCMV-Arm Milner 2017 Nature
 type bigWig
+maxHeightPixels 60
+autoScale on
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_Spleen_Rep2.bw
 
