@@ -55,3 +55,70 @@ maxHeightPixels 60
 autoScale on
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_Spleen_Rep2.bw
 
+track D5_shEts1_rep1
+shortLabel D5 shEts1 rep1 
+longLabel D5 shEts1 rep1 spleen 
+type bigWig
+maxHeightPixels 60
+autoScale on
+bigDataUrl https://de.cyverse.org/data/ds/iplant/home/stsuda/shEts1_D5_Rep1.bw
+
+track D5_shEts1_rep2
+shortLabel D5 shEts1 rep2
+longLabel D5 shEts1 rep2 spleen 
+type bigWig
+maxHeightPixels 60
+autoScale on
+bigDataUrl https://de.cyverse.org/data/ds/iplant/home/stsuda/shEts1_D5_Rep2.bw
+
+track D5_shCD19_rep1
+shortLabel D5 shCD19 rep1
+longLabel D5 shCD19 rep1 spleen
+type bigWig
+maxHeightPixels 60
+autoScale on
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/shCD19_D5_Rep1.bw
+
+track D5_shCD19_rep2
+shortLabel D5 shCD19 rep2
+longLabel D5 shCD19 rep2 spleen
+type bigWig
+maxHeightPixels 60
+autoScale on
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/shCD19_D5_Rep2.bw
+
+track CTLmem_rep1
+shortLabel CTLmem rep1
+longLabel CTLmem rep1 D35 LCMV-Arm Scott-Browne 2016 Immunity
+type bigWig
+maxHeightPixels 60
+autoScale on
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/CTLmem_Rep1.bw
+
+track KLRG1_d35_rep1
+shortLabel KLRG1 D35 rep1 spleen
+longLabel D35 KLRG1hi spleen LCMV-Arm Scott-Browne 2016 Immunity
+type bigWig
+maxHeightPixels 60
+autoScale on
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/KLRG1_d35_Rep1.bw
+
+track WT_naive_dLck_rep1
+shortLabel WT naive dLck rep1
+longLabel WT naive 0h dLck rep1 invitro 
+type bigWig
+maxHeightPixels 60
+autoScale on
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/WT1_0h_dLck_rep1.bw
+
+track Ets1KO_naive_dLck_rep1
+shortLabel Ets1KO naive dLck rep1
+longLabel Ets1KO naive 0h dLck rep1 invitro 
+type bigWig
+maxHeightPixels 60
+autoScale on
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/KO7_0h_dLck_rep1.bw
+
+
+
+
