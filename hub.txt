@@ -61,7 +61,7 @@ longLabel D5 shEts1 rep1 spleen
 type bigWig
 maxHeightPixels 60
 autoScale on
-bigDataUrl https://de.cyverse.org/data/ds/iplant/home/stsuda/shEts1_D5_Rep1.bw
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/shEts1_D5_Rep1.bw
 
 track D5_shEts1_rep2
 shortLabel D5 shEts1 rep2
@@ -69,7 +69,7 @@ longLabel D5 shEts1 rep2 spleen
 type bigWig
 maxHeightPixels 60
 autoScale on
-bigDataUrl https://de.cyverse.org/data/ds/iplant/home/stsuda/shEts1_D5_Rep2.bw
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/shEts1_D5_Rep2.bw
 
 track D5_shCD19_rep1
 shortLabel D5 shCD19 rep1
