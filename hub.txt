@@ -103,16 +103,16 @@ maxHeightPixels 60
 autoScale on
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/KLRG1_d35_Rep1.bw
 
-track WT_naive_dLck_rep1
-shortLabel WT naive dLck rep1
+track WT_naive_rep1
+shortLabel WT naive rep1
 longLabel WT naive 0h dLck rep1 invitro 
 type bigWig
 maxHeightPixels 60
 autoScale on
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/WT1_0h_dLck_rep1.bw
 
-track Ets1KO_naive_dLck_rep1
-shortLabel Ets1KO naive dLck rep1
+track Ets1KO_naive_rep1
+shortLabel Ets1KO naive rep1
 longLabel Ets1KO naive 0h dLck rep1 invitro 
 type bigWig
 maxHeightPixels 60
