@@ -6,7 +6,7 @@ email stsuda@ufl.edu
 
 genome mm39
 
-track Milner D7 TRM
+track Milner_TRM
 compositeTrack on
 parent myFolder
 shortLabel Milner D7 TRM
@@ -14,7 +14,7 @@ type bigWig
 allButtonPair on
 
   track D7_IEL_rep1
-  parent Milner D7 TRM on 
+  parent Milner_TRM on 
   shortLabel D7 IEL rep1
   longLabel D7 IEL rep1 LCMV-Arm Milner 2017 Nature
   type bigWig
@@ -24,7 +24,7 @@ allButtonPair on
   bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_IEL_Rep1.bw
 
   track D7_IEL_rep2
-  parent Milner D7 TRM on 
+  parent Milner_TRM on  
   shortLabel D7 IEL rep2
   longLabel D7 IEL rep2 LCMV-Arm Milner 2017 Nature
   type bigWig
@@ -34,7 +34,7 @@ allButtonPair on
   bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_IEL_Rep2.bw
 
   track D7_Kidney_rep1
-  parent Milner D7 TRM on 
+  parent Milner_TRM on  
   shortLabel D7 Kidney rep1
   longLabel D7 Kidney rep1 LCMV-Arm Milner 2017 Nature
   type bigWig
@@ -44,7 +44,7 @@ allButtonPair on
   bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_Kidney_Rep1.bw
 
   track D7_Kidney_rep2
-  parent Milner D7 TRM on 
+  parent Milner_TRM on  
   shortLabel D7 Kidney rep2
   longLabel D7 Kidney rep2 LCMV-Arm Milner 2017 Nature
   type bigWig
@@ -54,7 +54,7 @@ allButtonPair on
   bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_Kidney_Rep2.bw
 
   track D7_Spleen_rep1
-  parent Milner D7 TRM on 
+  parent Milner_TRM on 
   shortLabel D7 Spleen rep1
   longLabel D7 Spleen rep1 LCMV-Arm Milner 2017 Nature
   type bigWig
@@ -64,7 +64,7 @@ allButtonPair on
   bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_Spleen_Rep1.bw
 
   track D7_Spleen_rep2
-  parent Milner D7 TRM on 
+  parent Milner_TRM on  
   shortLabel D7 Spleen rep2
   longLabel D7 Spleen rep2 LCMV-Arm Milner 2017 Nature
   type bigWig
