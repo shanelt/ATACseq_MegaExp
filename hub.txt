@@ -9,6 +9,7 @@ genome mm39
 track Milner_TRM
 compositeTrack on
 shortLabel Milner D7 TRM
+longLabel Milner D7 TRM
 type bigWig
 allButtonPair on
 
