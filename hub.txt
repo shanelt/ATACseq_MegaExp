@@ -9,8 +9,9 @@ genome mm39
 track Milner_TRM
 compositeTrack on
 shortLabel Milner D7 TRM
-longLabel Milner D7 TRM
+longLabel Milner D7 TRM ATAC Nature 2017
 type bigWig
+visibility full
 allButtonPair on
 
   track D7_IEL_rep1
@@ -19,7 +20,7 @@ allButtonPair on
   longLabel D7 IEL rep1 LCMV-Arm Milner 2017 Nature
   type bigWig
   maxHeightPixels 60
-  autoScale on
+  autoScale group
   color 123,163,208
   bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_IEL_Rep1.bw
 
@@ -29,7 +30,7 @@ allButtonPair on
   longLabel D7 IEL rep2 LCMV-Arm Milner 2017 Nature
   type bigWig
   maxHeightPixels 60
-  autoScale on
+  autoScale group
   color 123,163,208
   bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_IEL_Rep2.bw
 
@@ -39,7 +40,7 @@ allButtonPair on
   longLabel D7 Kidney rep1 LCMV-Arm Milner 2017 Nature
   type bigWig
   maxHeightPixels 60
-  autoScale on
+  autoScale group
   color 174,228,240
   bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_Kidney_Rep1.bw
 
@@ -49,7 +50,7 @@ allButtonPair on
   longLabel D7 Kidney rep2 LCMV-Arm Milner 2017 Nature
   type bigWig
   maxHeightPixels 60
-  autoScale on
+  autoScale group
   color 174,228,240
   bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_Kidney_Rep2.bw
 
@@ -59,7 +60,7 @@ allButtonPair on
   longLabel D7 Spleen rep1 LCMV-Arm Milner 2017 Nature
   type bigWig
   maxHeightPixels 60
-  autoScale on
+  autoScale group
   color 113,193,204
   bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_Spleen_Rep1.bw
 
@@ -69,73 +70,109 @@ allButtonPair on
   longLabel D7 Spleen rep2 LCMV-Arm Milner 2017 Nature
   type bigWig
   maxHeightPixels 60
-  autoScale on
+  autoScale group
   color 113,193,204
   bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_Spleen_Rep2.bw
 
-track D5_shEts1_rep1
-shortLabel D5 shEts1 rep1 
-longLabel D5 shEts1 rep1 spleen 
+track D5_shEts1_ATAC
+compositeTrack on
+shortLabel D5_shEts1_ATAC
+longLabel D5 shEts1 ATAC spleen
 type bigWig
-maxHeightPixels 60
-autoScale on
-bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/shEts1_D5_Rep1.bw
+visibility full
+allButtonPair on
 
-track D5_shEts1_rep2
-shortLabel D5 shEts1 rep2
-longLabel D5 shEts1 rep2 spleen 
-type bigWig
-maxHeightPixels 60
-autoScale on
-bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/shEts1_D5_Rep2.bw
+  track D5_shEts1_rep1
+  parent D5_shEts1_ATAC on
+  shortLabel D5 shEts1 rep1 
+  longLabel D5 shEts1 rep1 spleen 
+  type bigWig
+  maxHeightPixels 60
+  autoScale on
+  color 126,85,147
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/shEts1_D5_Rep1.bw
 
-track D5_shCD19_rep1
-shortLabel D5 shCD19 rep1
-longLabel D5 shCD19 rep1 spleen
-type bigWig
-maxHeightPixels 60
-autoScale on
-bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/shCD19_D5_Rep1.bw
+  track D5_shEts1_rep2
+  parent D5_shEts1_ATAC on
+  shortLabel D5 shEts1 rep2
+  longLabel D5 shEts1 rep2 spleen 
+  type bigWig
+  maxHeightPixels 60
+  autoScale on
+  color 126,85,147
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/shEts1_D5_Rep2.bw
 
-track D5_shCD19_rep2
-shortLabel D5 shCD19 rep2
-longLabel D5 shCD19 rep2 spleen
-type bigWig
-maxHeightPixels 60
-autoScale on
-bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/shCD19_D5_Rep2.bw
+  track D5_shCD19_rep1
+  parent D5_shEts1_ATAC on
+  shortLabel D5 shCD19 rep1
+  longLabel D5 shCD19 rep1 spleen
+  type bigWig
+  maxHeightPixels 60
+  autoScale on
+  color 135,133,162
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/shCD19_D5_Rep1.bw
 
-track CTLmem_rep1
-shortLabel CTLmem rep1
-longLabel CTLmem rep1 D35 LCMV-Arm Scott-Browne 2016 Immunity
-type bigWig
-maxHeightPixels 60
-autoScale on
-bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/CTLmem_Rep1.bw
+  track D5_shCD19_rep2
+  parent D5_shEts1_ATAC on
+  shortLabel D5 shCD19 rep2
+  longLabel D5 shCD19 rep2 spleen
+  type bigWig
+  maxHeightPixels 60
+  autoScale on
+  color 135,133,162
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/shCD19_D5_Rep2.bw
 
-track KLRG1_d35_rep1
-shortLabel KLRG1 D35 rep1 spleen
-longLabel D35 KLRG1hi spleen LCMV-Arm Scott-Browne 2016 Immunity
+track ScottBrowne_ATAC
+compositeTrack on
+shortLabel ScottBrowne_ATAC
+longLabel ScottBrowne_ATAC 2016 Immunity
 type bigWig
-maxHeightPixels 60
-autoScale on
-bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/KLRG1_d35_Rep1.bw
+visibility full
+allButtonPair on
 
-track WT_naive_rep1
-shortLabel WT naive rep1
-longLabel WT naive 0h dLck rep1 invitro 
-type bigWig
-maxHeightPixels 60
-autoScale on
-bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/WT1_0h_dLck_rep1.bw
+  track CTLmem_rep1
+  parent ScottBrowne_ATAC on
+  shortLabel CTLmem 1
+  longLabel CTLmem rep1 D35 LCMV-Arm Scott-Browne 2016 Immunity
+  type bigWig
+  maxHeightPixels 60
+  autoScale on
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/CTLmem_Rep1.bw
 
-track Ets1KO_naive_rep1
-shortLabel Ets1KO naive rep1
-longLabel Ets1KO naive 0h dLck rep1 invitro 
+  track KLRG1_d35_rep1
+  parent ScottBrowne_ATAC on
+  shortLabel KLRG1 D35 1
+  longLabel D35 KLRG1hi spleen rep1 LCMV-Arm Scott-Browne 2016 Immunity
+  type bigWig
+  maxHeightPixels 60
+  autoScale on
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/KLRG1_d35_Rep1.bw
+
+track Ets1KO_invitro_ATAC
+compositeTrack on
+shortLabel Ets1KO_invitro_ATAC
+longLabel Ets1KO_invitro_ATAC activation time course
 type bigWig
-maxHeightPixels 60
-autoScale on
-bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/KO7_0h_dLck_rep1.bw
+visibility full
+allButtonPair on
+
+  track WT_naive_rep1
+  parent Ets1KO_invitro_ATAC on
+  shortLabel WT naive 1
+  longLabel WT naive 0h dLck rep1 invitro 
+  type bigWig
+  maxHeightPixels 60
+  autoScale on
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/WT1_0h_dLck_rep1.bw
+
+  track Ets1KO_naive_rep1
+  parent Ets1KO_invitro_ATAC on
+  shortLabel Ets1KO naive 1
+  longLabel Ets1KO naive 0h dLck rep1 invitro 
+  type bigWig
+  maxHeightPixels 60
+  autoScale on
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/KO7_0h_dLck_rep1.bw
 
 
 
