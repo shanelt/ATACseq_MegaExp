@@ -8,7 +8,6 @@ genome mm39
 
 track Milner_TRM
 compositeTrack on
-parent myFolder
 shortLabel Milner D7 TRM
 type bigWig
 allButtonPair on
