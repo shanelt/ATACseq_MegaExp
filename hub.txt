@@ -74,6 +74,37 @@ allButtonPair on
   color 2,108,128
   bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_Spleen_Rep2.bw
 
+track mulitWig_Milner
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+shortLabel Milner D7 TRM
+longLabel Milner D7 TRM ATAC Nature 2017
+type bigWig
+visibility full
+allButtonPair on
+
+  track D7_IEL_rep1
+  parent mulitWig_Milner on 
+  shortLabel D7 IEL rep1
+  longLabel D7 IEL rep1 LCMV-Arm Milner 2017 Nature
+  type bigWig
+  maxHeightPixels 60
+  autoScale group
+  color 237,99,53
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_IEL_Rep1.bw
+
+  track D7_IEL_rep2
+  parent mulitWig_Milner on  
+  shortLabel D7 IEL rep2
+  longLabel D7 IEL rep2 LCMV-Arm Milner 2017 Nature
+  type bigWig
+  maxHeightPixels 60
+  autoScale group
+  color 237,99,53
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_IEL_Rep2.bw
+
+
 track D5_shEts1_ATAC
 compositeTrack on
 shortLabel D5_shEts1_ATAC
