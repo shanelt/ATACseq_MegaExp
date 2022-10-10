@@ -137,7 +137,70 @@ allButtonPair on
   type bigWig
   maxHeightPixels 60
   autoScale on
-  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/CTLmem_Rep1.bw
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/ScottBrowne2016/CTLmem_Rep1.bw
+  
+  track CTLmem_rep2
+  parent ScottBrowne_ATAC on
+  shortLabel CTLmem 2
+  longLabel CTLmem rep2 D35 LCMV-Arm Scott-Browne 2016 Immunity
+  type bigWig
+  maxHeightPixels 60
+  autoScale on
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/ScottBrowne2016/CTLmem_Rep2.bw
+
+  track MPEC_1
+  parent ScottBrowne_ATAC on
+  shortLabel MPEC 1
+  longLabel MPEC 1 D8 LCMV-Arm Scott-Browne 2016 Immunity
+  type bigWig
+  maxHeightPixels 60
+  autoScale on
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/ScottBrowne2016/MPEC_Rep1.bw
+
+  track MPEC_2
+  parent ScottBrowne_ATAC on
+  shortLabel MPEC 2
+  longLabel MPEC 2 D8 LCMV-Arm Scott-Browne 2016 Immunity
+  type bigWig
+  maxHeightPixels 60
+  autoScale on
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/ScottBrowne2016/MPEC_Rep2.bw
+
+  track MPEC_3
+  parent ScottBrowne_ATAC on
+  shortLabel MPEC 3
+  longLabel MPEC 3 D8 LCMV-Arm Scott-Browne 2016 Immunity
+  type bigWig
+  maxHeightPixels 60
+  autoScale on
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/ScottBrowne2016/MPEC_Rep3.bw
+ 
+  track SLEC_1
+  parent ScottBrowne_ATAC on
+  shortLabel SLEC 1
+  longLabel SLEC 1 D8 LCMV-Arm Scott-Browne 2016 Immunity
+  type bigWig
+  maxHeightPixels 60
+  autoScale on
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/ScottBrowne2016/SLEC_Rep1.bw
+
+  track SLEC_2
+  parent ScottBrowne_ATAC on
+  shortLabel SLEC 2
+  longLabel SLEC 2 D8 LCMV-Arm Scott-Browne 2016 Immunity
+  type bigWig
+  maxHeightPixels 60
+  autoScale on
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/ScottBrowne2016/SLEC_Rep2.bw
+
+  track SLEC_3
+  parent ScottBrowne_ATAC on
+  shortLabel SLEC 3
+  longLabel SLEC 3 D8 LCMV-Arm Scott-Browne 2016 Immunity
+  type bigWig
+  maxHeightPixels 60
+  autoScale on
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/ScottBrowne2016/SLEC_Rep3.bw
 
   track KLRG1_d35_rep1
   parent ScottBrowne_ATAC on
@@ -146,7 +209,7 @@ allButtonPair on
   type bigWig
   maxHeightPixels 60
   autoScale on
-  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/KLRG1_d35_Rep1.bw
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/ScottBrowne2016/KLRG1_d35_Rep1.bw
 
 track Ets1KO_invitro_ATAC
 compositeTrack on
@@ -163,7 +226,7 @@ allButtonPair on
   type bigWig
   maxHeightPixels 60
   autoScale on
-  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/WT1_0h_dLck_rep1.bw
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/Ets1KO_invitro/WT1_0h_dLck_rep1.bw
 
   track Ets1KO_naive_rep1
   parent Ets1KO_invitro_ATAC on
@@ -172,7 +235,8 @@ allButtonPair on
   type bigWig
   maxHeightPixels 60
   autoScale on
-  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/KO7_0h_dLck_rep1.bw
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/Ets1KO_invitro/KO7_0h_dLck_rep1.bw
+
 
 
 
