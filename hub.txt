@@ -84,7 +84,7 @@ type bigWig
 visibility full
 allButtonPair on
 
-  track D7_IEL_rep1
+  track D7_IEL_rep1multi
   parent mulitWig_Milner on 
   shortLabel D7 IEL rep1
   longLabel D7 IEL rep1 LCMV-Arm Milner 2017 Nature
@@ -94,7 +94,7 @@ allButtonPair on
   color 237,99,53
   bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_IEL_Rep1.bw
 
-  track D7_IEL_rep2
+  track D7_IEL_rep2multi
   parent mulitWig_Milner on  
   shortLabel D7 IEL rep2
   longLabel D7 IEL rep2 LCMV-Arm Milner 2017 Nature
