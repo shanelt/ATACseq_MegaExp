@@ -20,7 +20,7 @@ allButtonPair on
   longLabel D7 IEL rep1 LCMV-Arm Milner 2017 Nature
   type bigWig
   maxHeightPixels 60
-  autoScale group
+  autoScale on
   color 237,99,53
   bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_IEL_Rep1.bw
 
@@ -30,7 +30,7 @@ allButtonPair on
   longLabel D7 IEL rep2 LCMV-Arm Milner 2017 Nature
   type bigWig
   maxHeightPixels 60
-  autoScale group
+  autoScale on
   color 237,99,53
   bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_IEL_Rep2.bw
 
@@ -40,7 +40,7 @@ allButtonPair on
   longLabel D7 Kidney rep1 LCMV-Arm Milner 2017 Nature
   type bigWig
   maxHeightPixels 60
-  autoScale group
+  autoScale on
   color 141,180,173
   bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_Kidney_Rep1.bw
 
@@ -50,7 +50,7 @@ allButtonPair on
   longLabel D7 Kidney rep2 LCMV-Arm Milner 2017 Nature
   type bigWig
   maxHeightPixels 60
-  autoScale group
+  autoScale on
   color 141,180,173
   bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_Kidney_Rep2.bw
 
@@ -60,7 +60,7 @@ allButtonPair on
   longLabel D7 Spleen rep1 LCMV-Arm Milner 2017 Nature
   type bigWig
   maxHeightPixels 60
-  autoScale group
+  autoScale on
   color 2,108,128
   bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_Spleen_Rep1.bw
 
@@ -70,7 +70,7 @@ allButtonPair on
   longLabel D7 Spleen rep2 LCMV-Arm Milner 2017 Nature
   type bigWig
   maxHeightPixels 60
-  autoScale group
+  autoScale on
   color 2,108,128
   bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_Spleen_Rep2.bw
 
