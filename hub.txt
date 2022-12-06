@@ -20,7 +20,7 @@ allButtonPair on
   longLabel D7 IEL rep1 LCMV-Arm Milner 2017 Nature
   type bigWig
   maxHeightPixels 60
-  autoScale on
+  autoScale group
   color 237,99,53
   bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_IEL_Rep1.bw
 
@@ -30,7 +30,7 @@ allButtonPair on
   longLabel D7 IEL rep2 LCMV-Arm Milner 2017 Nature
   type bigWig
   maxHeightPixels 60
-  autoScale on
+  autoScale group
   color 237,99,53
   bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_IEL_Rep2.bw
 
@@ -40,7 +40,7 @@ allButtonPair on
   longLabel D7 Kidney rep1 LCMV-Arm Milner 2017 Nature
   type bigWig
   maxHeightPixels 60
-  autoScale on
+  autoScale group
   color 141,180,173
   bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_Kidney_Rep1.bw
 
@@ -50,7 +50,7 @@ allButtonPair on
   longLabel D7 Kidney rep2 LCMV-Arm Milner 2017 Nature
   type bigWig
   maxHeightPixels 60
-  autoScale on
+  autoScale group
   color 141,180,173
   bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_Kidney_Rep2.bw
 
@@ -60,7 +60,7 @@ allButtonPair on
   longLabel D7 Spleen rep1 LCMV-Arm Milner 2017 Nature
   type bigWig
   maxHeightPixels 60
-  autoScale on
+  autoScale group
   color 2,108,128
   bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_Spleen_Rep1.bw
 
@@ -70,7 +70,7 @@ allButtonPair on
   longLabel D7 Spleen rep2 LCMV-Arm Milner 2017 Nature
   type bigWig
   maxHeightPixels 60
-  autoScale on
+  autoScale group
   color 2,108,128
   bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/D7_Spleen_Rep2.bw
 
@@ -81,7 +81,7 @@ showSubtrackColorOnUi on
 shortLabel Milner D7 TRM
 longLabel Milner D7 TRM ATAC Nature 2017
 type bigWig
-visibility full
+visibility hide
 allButtonPair on
 
   track D7_IEL_rep1multi
@@ -266,6 +266,7 @@ allButtonPair on
   type bigWig
   maxHeightPixels 60
   autoScale group
+  color 57,65,77
   bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/Ets1KO_invitro/WT1_0h_dLck_rep1.bw
 
   track Ets1KO_naive_rep1
@@ -275,9 +276,105 @@ allButtonPair on
   type bigWig
   maxHeightPixels 60
   autoScale group
+  color 183,162,247
   bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/Ets1KO_invitro/KO7_0h_dLck_rep1.bw
-
-
-
-
-
+   
+  track WT_2h_rep1
+  parent Ets1KO_invitro_ATAC on
+  shortLabel WT 2h rep1
+  longLabel WT 2h dLck rep1 invitro
+  type bigWig
+  maxHeightPixels 60
+  autoScale group
+  color 57,65,77
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/Ets1KO_invitro/WT2_2h_dLck_rep1.bw
+  
+  track Ets1KO_2h_rep1
+  parent Ets1KO_invitro_ATAC on
+  shortLabel Ets1KO 2h rep1
+  longLabel Ets1KO 2h dLck rep1 invitro
+  type bigWig
+  maxHeightPixels 60
+  autoScale group
+  color 183,162,247
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/Ets1KO_invitro/KO8_2h_dLck_rep1.bw
+  
+  track WT_6h_rep1
+  parent Ets1KO_invitro_ATAC on
+  shortLabel WT 6h rep1
+  longLabel WT 6h dLck rep1 invitro
+  type bigWig
+  maxHeightPixels 60
+  autoScale group
+  color 57,65,77
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/Ets1KO_invitro/WT3_6h_dLck_rep1.bw
+  
+  track Ets1KO_6h_rep1
+  parent Ets1KO_invitro_ATAC on
+  shortLabel Ets1KO 6h rep1
+  longLabel Ets1KO 6h dLck rep1 invitro
+  type bigWig
+  maxHeightPixels 60
+  autoScale group
+  color 183,162,247
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/Ets1KO_invitro/KO9_6h_dLck_rep1.bw
+  
+  track WT_12h_rep1
+  parent Ets1KO_invitro_ATAC on
+  shortLabel WT 12h rep1
+  longLabel WT 12h dLck rep1 invitro
+  type bigWig
+  maxHeightPixels 60
+  autoScale group
+  color 57,65,77
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/Ets1KO_invitro/WT4_12h_dLck_rep1.bw
+  
+  track Ets1KO_12h_rep1
+  parent Ets1KO_invitro_ATAC on
+  shortLabel Ets1KO 12h rep1
+  longLabel Ets1KO 12h dLck rep1 invitro
+  type bigWig
+  maxHeightPixels 60
+  autoScale group
+  color 183,162,247
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/Ets1KO_invitro/KO10_12h_dLck_rep1.bw
+  
+  track WT_24h_rep1
+  parent Ets1KO_invitro_ATAC on
+  shortLabel WT 24h rep1
+  longLabel WT 24h dLck rep1 invitro
+  type bigWig
+  maxHeightPixels 60
+  autoScale group
+  color 57,65,77
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/Ets1KO_invitro/WT5_24h_dLck_rep1.bw
+  
+  track Ets1KO_24h_rep3
+  parent Ets1KO_invitro_ATAC on
+  shortLabel Ets1KO 24h rep3
+  longLabel Ets1KO 24h dLck rep3 invitro
+  type bigWig
+  maxHeightPixels 60
+  autoScale group
+  color 183,162,247
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/Ets1KO_invitro/KO35_24h_dLck_rep3.bw
+  
+  track WT_48h_rep1
+  parent Ets1KO_invitro_ATAC on
+  shortLabel WT 48h rep1
+  longLabel WT 48h dLck rep1 invitro
+  type bigWig
+  maxHeightPixels 60
+  autoScale group
+  color 57,65,77
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/Ets1KO_invitro/WT6_48h_dLck_rep1.bw
+  
+  track Ets1KO_48h_rep1
+  parent Ets1KO_invitro_ATAC on
+  shortLabel Ets1KO 48h rep1
+  longLabel Ets1KO 48h dLck rep1 invitro
+  type bigWig
+  maxHeightPixels 60
+  autoScale group
+  color 183,162,247
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/Ets1KO_invitro/KO12_48h_dLck_rep1.bw
