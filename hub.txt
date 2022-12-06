@@ -378,3 +378,93 @@ allButtonPair on
   autoScale group
   color 183,162,247
   bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/Ets1KO_invitro/KO12_48h_dLck_rep1.bw
+  
+track Runx3KO_invitro_ATAC
+compositeTrack on
+shortLabel Runx3KO_invitro_ATAC
+longLabel Runx3KO_invitro_ATAC activation time course
+type bigWig
+visibility full
+allButtonPair on
+
+  track 0H_WT_rep1
+  parent Runx3KO_invitro_ATAC on
+  shortLabel 0H_WT_rep1
+  longLabel 0H_WT_rep1 invitro
+  type bigWig
+  maxHeightPixels 30
+  autoScale group
+  color 1,64,64
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/Wang2018/0H_WT_Rep1.bw
+  
+  track 0H_WT_rep2
+  parent Runx3KO_invitro_ATAC on
+  shortLabel 0H_WT_rep2
+  longLabel 0H_WT_rep2 invitro
+  type bigWig
+  maxHeightPixels 30
+  autoScale group
+  color 1,64,64
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/Wang2018/0H_WT_Rep2.bw
+  
+  track 0H_Runx3_KO_rep1
+  parent Runx3KO_invitro_ATAC on
+  shortLabel 0H_Runx3_KO_rep1
+  longLabel 0H_Runx3_KO_rep1 invitro
+  type bigWig
+  maxHeightPixels 30
+  autoScale group
+  color 166,59,13
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/Wang2018/0H_Runx3_KO_Rep1.bw
+  
+  track 0H_Runx3_KO_rep2
+  parent Runx3KO_invitro_ATAC on
+  shortLabel 0H_Runx3_KO_rep2
+  longLabel 0H_Runx3_KO_rep2 invitro
+  type bigWig
+  maxHeightPixels 30
+  autoScale group
+  color 166,59,13
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/Wang2018/0H_Runx3_KO_Rep2.bw
+  
+  track 24H_WT_rep1
+  parent Runx3KO_invitro_ATAC on
+  shortLabel 24H_WT_rep1
+  longLabel 24H_WT_rep1 invitro
+  type bigWig
+  maxHeightPixels 30
+  autoScale group
+  color 1,64,64
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/Wang2018/24H_WT_Rep1.bw
+  
+  track 24H_WT_rep2
+  parent Runx3KO_invitro_ATAC on
+  shortLabel 24H_WT_rep2
+  longLabel 24H_WT_rep2 invitro
+  type bigWig
+  maxHeightPixels 30
+  autoScale group
+  color 1,64,64
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/Wang2018/24H_WT_Rep2.bw
+  
+  track 24H_Runx3_KO_rep1
+  parent Runx3KO_invitro_ATAC on
+  shortLabel 24H_Runx3_KO_rep1
+  longLabel 24H_Runx3_KO_rep1 invitro
+  type bigWig
+  maxHeightPixels 30
+  autoScale group
+  color 166,59,13
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/Wang2018/24H_Runx3_KO_Rep1.bw
+  
+  track 24H_Runx3_KO_rep2
+  parent Runx3KO_invitro_ATAC on
+  shortLabel 24H_Runx3_KO_rep2
+  longLabel 24H_Runx3_KO_rep2 invitro
+  type bigWig
+  maxHeightPixels 30
+  autoScale group
+  color 166,59,13
+  bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/stsuda/Wang2018/24H_Runx3_KO_Rep2.bw
+  
+  
